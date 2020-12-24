@@ -10,7 +10,7 @@
 //SEARCH
 
 .search {
-  flex: 0 0 40%;
+  flex: 0 0 40%; //set the input container width
 
   display: flex;
   align-items: center;
@@ -115,4 +115,32 @@
     border-radius: 50%;
     margin-right: 1rem;
   }
+}
+
+//////////////////////////////
+//SIDE NAVIGATION
+
+.side-nav {
+  &__item {
+    list-style-type: none;
+  }
+
+  &__link {
+    text-decoration: none;
+
+  }
+
+  &__icon {
+    width: 1.75rem; //svg as square
+    height: 1.75rem;
+  }
+}
+
+//////////////////////////////
+//LEGAL TEXT
+.legal {
+  font-size: 1.2rem;
+  text-align: center;
+  color: var(--color-grey-light-4);
+  padding: 2.5rem;
 }
