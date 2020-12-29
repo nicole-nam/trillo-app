@@ -95,7 +95,6 @@ body {
       -ms-flex: 1;
           flex: 1;
   height: 80rem;
-  background: pink;
 }
 
 .logo {
@@ -262,7 +261,7 @@ body {
 .side-nav__item:before {
   content: "";
   position: absolute;
-  top: 0%;
+  top: 0;
   left: 0;
   height: 100%;
   width: 3px;
@@ -313,5 +312,22 @@ body {
   text-align: center;
   color: var(--color-grey-light-4);
   padding: 2.5rem;
+}
+
+.gallery {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.gallery__photo {
+  width: 100%;
+  display: block;
+}
+
+.overview__icon-stars, .overview__icon-location {
+  width: 1.75rem;
+  height: 1.75rem;
+  fill: var(--color-primary);
 }
 /*# sourceMappingURL=main.css.map */

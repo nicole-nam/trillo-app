@@ -136,7 +136,7 @@
   &__item:before {
     content: "";
     position: absolute;
-    top: 0%;
+    top: 0;
     left: 0;
     height: 100%;
     width: 3px;
@@ -150,7 +150,7 @@
   &__item--active::before {
     //when item is hovered we want before pseudo element to take on these styles
     transform: scaleY(1);
-    width: 100%;
+    width: 100%; //bar that goes accross on hover
   }
 
   &__item:active::before {
@@ -187,4 +187,45 @@
   text-align: center;
   color: var(--color-grey-light-4);
   padding: 2.5rem;
+}
+
+//////////////////////////////
+//GALLERY
+
+.gallery {
+  display: flex;
+  &__photo {
+    width: 100%;
+    display: block;
+  }
+}
+
+//////////////////////////////
+//HOTEL OVERVIEW
+
+.overview {
+  &__heading {
+  }
+
+  &__stars {
+  }
+
+  &__icon-stars,
+  &__icon-location {
+    width: 1.75rem;
+    height: 1.75rem;
+    fill: var(--color-primary);
+  }
+
+  &__location {
+  }
+
+  &__rating {
+  }
+
+  &__rating-average {
+  }
+
+  &__rating-count {
+  }
 }
