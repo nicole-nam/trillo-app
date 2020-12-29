@@ -33,8 +33,6 @@
   background-color: #fff;
   flex: 1;
 
-  //test
-  height: 80rem;
 }
 
 .detail {
@@ -45,7 +43,8 @@
 }
 
 .description {
-  background-color:#fff;
+  font-size: 1.4rem;
+  background-color: #fff;
   box-shadow: var(--shadow-light);
   padding: 3rem;
   flex: 0 0 60%;
